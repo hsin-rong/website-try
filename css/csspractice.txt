@@ -1,36 +1,126 @@
 html{
-    margin:53px 160px 0px;
+    background-color: #edf2c5;
+}
+body{
+    padding:53px 160px 0px;
+    margin:0px;
 }
 .header{
     display:flex; 
+    height:42px;
+    width:940px;
+    padding-bottom:8px;
+    align-items: flex-end;
 }
 .header-title{
-    font-size:240%;
+    font-family: Arial Black;
+    color:#778A50;
     width:271px;height:42px;
     margin-right:468px;
-
+    margin-bottom: 0px;
+    align-items: flex-end;
+    font-size: 32px;
 }
 .header-icon {
     width:25px;height:25px;
     margin-left: 10px;
+    margin-bottom: 9px;
+    
+}
+.cut{
+    min-width: 1px;height:25px;
+    background-color:#778a50;
+    margin-left: 10px;
+    margin-bottom: 9px;
+    
 }
 .header-button{
     width:60px;height:25px;
-    text-align:center;
+    border: 1px;
+    border-style:solid;
+    border-color:#778a50 ;
+    font-family:Arial BoldMT;
     margin:0px 10px;
-    background-color:lightgrey;
-    vertical-align:baseline;
+    color:#778a50;
+    margin-bottom: 9px;
+    
 }
 .nav{
+    width:940px;height:44px;
     display:flex;
-    justify-content: space-around;
     list-style-type:none;
+    background-color:#778a50;
+    color:#edf2c5;
+    font-family:Arial Black;
 }
-.subtitle{
-    display:flex;
-    justify-content: space-around;
-    list-style-type:none;
+.nav p{
+    padding:12px 30px;
+    font-size: 16px;
+    margin: 0px;
+    
 }
+.main-img{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
 .context{
     display:flex;
+    width:940px;
+    justify-content: space-between;
+}
+.context-1{
+    padding-bottom:35px;
+    width:445px;
+}
+.subtitle-1{
+    
+    font-family: Arial Black;
+    background-color:#778a50;
+    color:#edf2c5;
+    font-size:16px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    padding:15px 30px;
+}
+.context-1 img{
+    padding-right: 5px;
+    width:140px; height:140px;
+}
+.context-2{
+    width:445px;
+    padding-bottom:35px;
+}
+.context-2-1{
+    height:140px;
+    background-color: #f7fbda;
+}
+.context-2-1 p{
+    font-size:12px;
+    font-family: Arial;
+    padding: 15px 16px;
+    margin:0px;
+    
+}
+.context-2-1 div{
+    min-height: 1px;width:414px;
+    background-color: #7d7d7d;
+    margin-left:15px;
+}
+.subtitle-2{
+
+    font-family: Arial Black;
+    background-color:#778a50;
+    color:#edf2c5;
+    font-size:16px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    padding:15px 30px;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    color:#edf2c5;
+    background-color:#778a50;
+    width:1260px; height:60px;
 }
