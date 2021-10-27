@@ -39,7 +39,9 @@ html{
     border: 1px;
     border-style:solid;
     border-color:#778a50 ;
-    font-family:Arial BoldMT;
+    font-family:Arial Bold;
+    text-align: center;
+    vertical-align: middle;
     margin:0px 10px;
     color:#778a50;
     margin-bottom: 9px;
