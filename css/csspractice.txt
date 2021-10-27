@@ -37,15 +37,16 @@ html{
 .header-button{
     width:60px;height:25px;
     border: 1px;
+    font-size:14px;
     border-style:solid;
     border-color:#778a50 ;
-    font-family:Arial Bold;
+    font-family:Arial ;
     text-align: center;
-    vertical-align: middle;
-    margin:0px 10px;
+    margin: 9px 10px ;
     color:#778a50;
-    margin-bottom: 9px;
-    
+}
+.header-button p{
+    margin-top: 5px;
 }
 .nav{
     width:940px;height:44px;
@@ -100,7 +101,7 @@ html{
 .context-2-1 p{
     color:#7d7d7d;
     font-size:12px;
-    font-family: Arial;
+    font-family: Arial ;
     padding: 15px 16px;
     margin:0px;
     
@@ -122,6 +123,7 @@ html{
 }
 .footer{
     display:flex;
+    font-family:Arial black;
     justify-content: center;
     color:#edf2c5;
     background-color:#778a50;
